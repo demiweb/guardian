@@ -454,10 +454,10 @@
 
     transition: opacity 0.3s ease-in-out;
     position: absolute;
-    top: 50%;
+    top:0.9375vw;
     right: 0;
     opacity: 0;
-    transform: translate(0, -50%) rotate(90deg);
+    transform: translate(0, 0) rotate(90deg);
   }
 }
 
@@ -465,6 +465,28 @@
   @media screen and (min-width: 767px) {
     &:hover {
       .why-us__single-head {
+        .sub-title {
+          font-size: 2.2500vw;
+          line-height: 2.2500vw;
+          padding-right: 2.2500vw;
+
+        }
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      .why-us__single-cont {
+        height: 21.3750vw;
+        opacity: 1;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    &.active {
+      .why-us__single-head {
+        margin-bottom: auto;
         .sub-title {
           font-size: 2.2500vw;
           line-height: 2.2500vw;
@@ -695,6 +717,9 @@
   flex-wrap: wrap;
 }
 
+.btn-mod {
+  cursor: pointer;
+}
 .single-consult {
   width: 50%;
   height: 9.3750vw;
