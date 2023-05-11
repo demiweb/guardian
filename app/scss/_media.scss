@@ -15,97 +15,65 @@
     }
   }
   //
+  .why-us-form-cont {
+    width: 100%;
+  }
+  .why-us__block.why-us__block--nowrap {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .why-us__left .why-us__single .why-us__single-head .sub-title {
+    font-size: 4.2667vw;
+    line-height: 1.2;
+  }
+  .why-us__left {
+    width: 100%;
+  }
   .modal-close {
-    width: 24px;
-    height: 24px;
-    right: 6px;
-    top: 6px;
+    width: 6.4000vw;
+    height: 6.4000vw;
+    right: 1.6000vw;
+    top: 1.6000vw;
   }
   .modal-window {
-    padding: 15px;
+    padding: 4.0000vw;
   }
   .modal-container {
     width: 100%;
-    padding: 30px;
+    padding: 8.0000vw;
 
   }
-  .header-socials {
-    .soc {
-      &.wa {
-        img, svg {
-          circle {
-            fill: #25D366;
-          }
-        }
-      }
 
-      &.tg {
-        img, svg {
-          circle {
-            fill: #2AABEE;
-          }
-        }
-      }
-
-      &.vb {
-        img, svg {
-          circle {
-            fill: #7360f2;
-          }
-        }
-      }
-
-      &.ln {
-        img, svg {
-          circle {
-            fill: #0077b5;
-          }
-        }
-      }
-
-      &.fb {
-        img, svg {
-          circle {
-            fill: #4267B2;
-          }
-        }
-      }
-
-      &.tl {
-        img, svg {
-          circle {
-            fill: #A91D21;
-          }
-        }
-      }
-    }
-  }
   .header-socials .tel strong {
-    margin-left: 4px;
+    margin-left: 1.0667vw;
   }
   .footer-top {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 4.0000vw;
   }
   .footer-bottom .dev-log {
     width: 41vw;
-    margin-bottom: 15px;
+    margin-bottom: 4.0000vw;
   }
+
   .footer-bottom {
     flex-direction: column-reverse;
     align-items: center;
+
     .left {
       width: 100%;
       display: flex;
       flex-direction: column-reverse;
-      gap: 10px;
+      gap: 2.6667vw;
       align-items: center;
       justify-content: flex-start;
+
       p {
         width: 100%;
-        font-size: 12px;
+        font-size: 3.2000vw;
         line-height: 1.2;
         max-width: 100%;
         text-align: center;
@@ -114,17 +82,20 @@
   }
   .footer-column {
     width: 100%;
-    >span {
-      font-size: 16px;
+
+    > span {
+      font-size: 4.2667vw;
       line-height: 1.2;
     }
+
     .mail {
-      font-size: 12px;
+      font-size: 3.2000vw;
       line-height: 1.2;
-      margin-bottom: 8px;
+      margin-bottom: 2.1333vw;
     }
+
     .address {
-      font-size: 12px;
+      font-size: 3.2000vw;
       line-height: 1.2;
     }
   }
@@ -135,34 +106,39 @@
     margin-top: 0;
   }
   .clients-name {
-    padding: 10px;
+    padding: 2.6667vw;
+
     .img {
-      width: 43px;
-      height: 43px;
-      margin-right: 10px;
+      width:11.4667vw;
+      height: 11.4667vw;
+      margin-right: 2.6667vw;
     }
+
     .text {
       p {
-        font-size: 10px;
+        font-size: 2.6667vw;
         line-height: 1.2;
       }
+
       span {
-        font-size: 14px;
+        font-size: 3.7333vw;
         line-height: 1.2;
       }
     }
   }
   .clients-comment {
-    padding: 14px;
+    padding: 3.7333vw;
     height: 54vw;
+
     blockquote {
-      font-size: 12px;
+      font-size: 3.2000vw;
       line-height: 1.2;
     }
+
     .img {
-      max-width: 89px;
-      max-height: 25px;
-      margin-bottom: 10px;
+      max-width: 23.7333vw;
+      max-height: 6.6667vw;
+      margin-bottom: 2.6667vw;
     }
   }
   .projects-cont {
@@ -174,31 +150,36 @@
     height: 19vw;
   }
   .single-project .text {
-    padding: 0 10px;
+    padding: 0 2.6667vw;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 2.6667vw;
+
     span {
-      font-size: 8px;
+      font-size: 2.1333vw;
       line-height: 1.2;
       font-weight: 600;
       color: $main-color;
     }
+
     p {
-      font-size: 14px;
+      font-size: 3.7333vw;
       line-height: 1.2;
+
       strong {
-        font-size: 16px;
+        font-size: 4.2667vw;
         line-height: 1.2;
       }
     }
+
     .text-row {
-      margin-bottom: 10px;
+      margin-bottom: 2.6667vw;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -212,11 +193,11 @@
     width: 100%;
 
     .btn {
-      margin-top: 20px;
+      margin-top: 5.3333vw;
     }
   }
   .our-team__text p {
-    font-size: 12px;
+    font-size: 3.2000vw;
     line-height: 1.2;
     max-width: 100%;
   }
@@ -230,12 +211,12 @@
     padding: 0;
 
     p {
-      font-size: 12px;
+      font-size: 3.2000vw;
       line-height: 1.2;
     }
 
     span {
-      font-size: 16px;
+      font-size: 4.2667vw;
       line-height: 1.2;
     }
   }
@@ -244,19 +225,19 @@
   }
   .our-team-slider .swiper-slide .img {
     height: 67vw;
-    margin-bottom: 15px;
+    margin-bottom: 4.0000vw;
   }
   .dots {
     width: 100%;
     display: flex !important;
-    gap: 8px;
+    gap: 2.1333vw;
     justify-content: center;
     align-items: center;
-    margin: 15px 0;
+    margin: 4.0000vw 0;
   }
   .single-dot {
-    width: 15px;
-    height: 15px;
+    width: 4.0000vw;
+    height: 4.0000vw;
     border-radius: 50%;
     cursor: pointer;
     background: #cfcfcf;
@@ -271,7 +252,7 @@
     justify-content: flex-start;
   }
   .our-team {
-    margin-top: 45px;
+    margin-top: 12.0000vw;
   }
   .title-head {
     flex-direction: column;
@@ -280,7 +261,7 @@
 
     .line {
       width: 80%;
-      margin: 15px 0;
+      margin: 4.0000vw 0;
     }
   }
   .single-consult {
@@ -288,23 +269,23 @@
     height: auto;
   }
   .consult {
-    padding-bottom: 30px;
+    padding-bottom: 8.0000vw;
   }
   .single-consult:last-child .btn-mod {
-    padding: 20px;
+    padding: 5.3333vw;
 
     &::after {
-      width: 26px;
-      height: 10px;
+      width: 6.9333vw;
+      height: 2.6667vw;
     }
 
     p {
-      font-size: 14px;
+      font-size: 3.7333vw;
       line-height: 1.2;
     }
 
     span {
-      font-size: 8px;
+      font-size: 2.1333vw;
       line-height: 1.2;
     }
   }
@@ -319,16 +300,16 @@
 
     .img {
       width: auto;
-      height: 28px;
+      height: 7.4667vw;
     }
   }
   .consult-wrap {
-    padding: 10px 40px;
+    padding: 2.6667vw 10.6667vw;
 
     .arr {
-      width: 26px;
-      height: 10px;
-      left: 7px;
+      width: 6.9333vw;
+      height: 2.6667vw;
+      left: 1.8667vw;
     }
   }
   .consult-wrap .hidden-text {
@@ -339,94 +320,94 @@
     display: none;
   }
   .consult-wrap p {
-    font-size: 14px;
+    font-size: 3.7333vw;
     line-height: 1.2;
     opacity: 1;
     pointer-events: auto;
   }
 
   .consult-cont .sub-text {
-    margin-top: 6px;
-    margin-bottom: 14px;
+    margin-top: 1.6000vw;
+    margin-bottom: 3.7333vw;
   }
   .sub-text {
-    font-size: 14px;
+    font-size: 3.7333vw;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 2.6667vw;
   }
   .form form .btn {
-    margin-top: 10px;
+    margin-top: 2.6667vw;
   }
   .form form {
-    gap: 8px;
+    gap: 2.1333vw;
   }
   .input-wrap {
     input {
-      height: 34px;
-      border-radius: 17px;
-      padding: 4px 10px 4px 42px;
-      font-size: 14px;
+      height: 9.0667vw;
+      border-radius: 4.5333vw;
+      padding: 1.0667vw 2.6667vw 1.0667vw 11.2000vw;
+      font-size: 3.7333vw;
       line-height: 1.2;
 
       &::placeholder {
-        font-size: 14px;
+        font-size: 3.7333vw;
         line-height: 1.2;
       }
     }
 
     .req-item {
-      width: 7px;
-      height: 7px;
-      top: 5px;
-      right: 15px;
+      width: 1.8667vw;
+      height: 1.8667vw;
+      top: 1.3333vw;
+      right: 4.0000vw;
     }
 
     .img {
-      width: 30px;
-      height: 30px;
+      width: 8.0000vw;
+      height: 8.0000vw;
       left: 2px;
     }
   }
   .why-us__form {
     .sub-title {
-      margin-bottom: 10px;
+      margin-bottom: 2.6667vw;
     }
 
     > p {
-      font-size: 14px;
+      font-size: 3.7333vw;
       line-height: 1.2;
-      margin-bottom: 10px;
+      margin-bottom: 2.6667vw;
     }
   }
   .sub-title {
-    font-size: 18px;
+    font-size: 4.8000vw;
     line-height: 1.2;
   }
 
   .why-us__form {
     width: 100%;
     height: auto;
-    padding: 14px 14px;
+    padding: 3.7333vw 3.7333vw;
   }
   .why-us__single-head::after {
-    width: 24px;
-    height: 12px;
-    right: -10px;
+    width: 6.4000vw;
+    height: 3.2000vw;
+    right: -2.6667vw;
   }
   .why-us__single-cont .text {
-    margin-top: 18px;
+    margin-top: 4.8000vw;
   }
   .why-us__single-cont .text {
     ul {
-      padding-left: 20px;
+      padding-left: 5.3333vw;
 
       li {
-        margin-bottom: 8px;
+        margin-bottom: 2.1333vw;
 
         &::marker {
           flex-shrink: 0;
-          width: 7px;
-          height: 7px;
+          width: 1.8667vw;
+          height: 1.8667vw;
         }
       }
     }
@@ -441,7 +422,7 @@
     }
   }
   .why-us__single.active .why-us__single-cont, .why-us__single .why-us__single-cont {
-    max-height: 600px;
+    max-height: 160.0000vw;
     opacity: 1;
   }
   .why-us__single .why-us__single-cont {
@@ -454,42 +435,42 @@
     }
   }
   .why-us__single-cont .text li, .why-us__single-cont .text p, .why-us__single-cont .text span {
-    font-size: 14px;
+    font-size: 3.7333vw;
     line-height: 1.2;
   }
   .why-us {
-    padding: 30px 0;
+    padding: 8.0000vw 0;
   }
   .why-us__block {
-    padding: 10px;
-    gap: 8px;
+    padding: 2.6667vw;
+    gap: 2.1333vw;
   }
   .why-us__single-head .sub-title {
-    font-size: 16px;
+    font-size: 4.2667vw;
     line-height: 1.2;
   }
   .why-us__single.active .why-us__single-head .sub-title, .why-us__single:hover .why-us__single-head .sub-title {
-    font-size: 16px;
+    font-size: 4.2667vw;
     line-height: 1.2;
   }
   .why-us__single {
     width: 100%;
-    padding: 24px 12px;
+    padding: 6.4000vw 3.2000vw;
     height: auto;
   }
   .why-us__cont .title {
-    margin-bottom: 16px;
+    margin-bottom: 4.2667vw;
   }
   .hero-cont .text .title {
-    margin-bottom: 26px;
+    margin-bottom: 6.9333vw;
   }
   .hero-cont .img {
     width: calc(100% + 8vw);
-    height: 386px;
+    height: 102.9333vw;
     max-height: none;
     margin-left: -4.0000vw;
     margin-right: -4.0000vw;
-    margin-top: 30px;
+    margin-top: 8.0000vw;
     display: flex;
 
     img {
@@ -499,7 +480,7 @@
   }
   .hero-cont {
     height: auto;
-    padding: 30px 0 0;
+    padding: 8.0000vw 0 0;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -509,55 +490,55 @@
     transform: translate(0, -10px);
 
     &.btn--big {
-      font-size: 14px;
-      padding: 10px 34px;
+      font-size: 3.7333vw;
+      padding: 2.6667vw 9.0667vw;
       line-height: 1.2;
-      border-radius: 20px;
+      border-radius: 5.3333vw;
 
       &::after {
-        width: 26px;
-        height: 10px;
-        margin-left: 10px;
+        width: 6.9333vw;
+        height: 2.6667vw;
+        margin-left: 2.6667vw;
       }
     }
 
     &.btn--lit {
-      font-size: 13px;
-      padding: 7px 16px;
+      font-size: 3.4667vw;
+      padding: 1.8667vw 4.2667vw;
       line-height: 1.2;
-      border-radius: 20px;
+      border-radius: 5.3333vw;
 
       &::after {
-        width: 26px;
-        height: 10px;
-        margin-left: 10px;
+        width: 6.9333vw;
+        height: 2.6667vw;
+        margin-left: 2.6667vw;
       }
     }
   }
   .title {
-    font-size: 26px;
+    font-size: 6.9333vw;
     line-height: 1.2;
   }
   .header-cont {
-    padding: 10px 0;
+    padding: 2.6667vw 0;
   }
   .header-right {
-    gap: 7px;
+    gap: 1.8667vw;
   }
   .logo {
-    width: 124px;
+    width: 33.0667vw;
   }
   .header-socials {
-    gap: 7px;
+    gap: 1.8667vw;
 
     .tel {
-      font-size: 14px;
+      font-size: 3.7333vw;
       line-height: 1.2;
     }
 
     .soc {
-      width: 32px;
-      height: 32px;
+      width: 8.5333vw;
+      height: 8.5333vw;
     }
   }
   .header-right {
@@ -575,17 +556,17 @@
   }
   .header-lang {
     span {
-      font-size: 13px;
+      font-size: 3.4667vw;
       line-height: 1.2;
-      width: 34px;
-      height: 34px;
+      width: 9.0667vw;
+      height: 9.0667vw;
     }
   }
   .header-lang ul li a {
-    font-size: 13px;
+    font-size: 3.4667vw;
     line-height: 1.2;
-    width: 34px;
-    height: 34px;
+    width: 9.0667vw;
+    height: 9.0667vw;
   }
 
 

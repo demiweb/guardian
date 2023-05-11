@@ -374,13 +374,13 @@ let whyList = [...document.querySelectorAll('.why-us__single')];
 
 function whyControl() {
     if (whyList.length) {
-        if (window.innerWidth < 768) {
+
             whyList.forEach((btn) => {
                 btn.addEventListener('click', () => {
                     btn.classList.toggle('active');
                 })
             })
-        }
+
 
     }
 }
